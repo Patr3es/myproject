@@ -1,16 +1,20 @@
-
 {
     "name": "StockX",
     "short_name": "StockX",
-    "description": "Online Store",
-    "start_url": "/stockx",
-    "display": "fullscreen",
+    "description": "Track your orders on StockX",
+    "start_url": "/index.html",
+    "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#ffffff",
+    "theme_color": "#026342",
     "icons": [
         {
             "src": "/static/images/stockx_icon.png",
-            "sizes": "512x512",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/images/stockx_icon.png",
+            "sizes": "192x192",
             "type": "image/png"
         }
     ]
